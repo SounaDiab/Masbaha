@@ -74,5 +74,17 @@
 @media (max-width: 600px) {
     .container{
         width: 200px;
+        background-position-x: -180px;
+        padding: 30px;
+    }
+    .container input[type = "text"]{
+        top: 23px;
+        padding-top: 5px;
+    }
+    .container span{
+        top: -40px;
+    }
+    .container .child input[type = "submit"] {
+        left: 22px;
     }
 }
