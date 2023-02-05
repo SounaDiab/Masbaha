@@ -71,3 +71,14 @@
     left: 12px;
     border: none;
 }
+/* media */
+@media (max-width: 1080px) ,(max-height: 2460px) {
+    .container input[type = "text"]{
+        top: 30px;
+        left: 6px;
+    }
+    .container span{
+        top: -34px;
+        left: 5px;
+    }
+}
