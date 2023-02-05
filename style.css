@@ -72,7 +72,7 @@
     border: none;
 }
 /* media */
-@media (max-width: 1080px) ,(max-height: 2460px) {
+@media (max-width: 767px) {
     .container input[type = "text"]{
         top: 30px;
         left: 6px;
