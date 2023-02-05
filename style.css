@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    background-image: url(images/masbaha.jpg);
+    background-size: cover;
+    background-position-x: -172px;
+}
+.container input[type = "text"]{
+    display: block;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 29px;
+    left: 3px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.container span{
+    margin: 50px auto;
+    padding: 5px;
+    font-size: 15px;
+    background-color: white;
+    position: relative;
+    top: -32px;
+    left: 2px;
+    width: 145px;
+    border-radius: 20px;
+    text-align: center;
+}
+.container .child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .child input[type = "submit"]{
+    width: 80px;
+    height: 80px;
+    display: block;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+    background-image: url(images/masbaha.jfif);
+    background-size: cover;
+    background-position-y: 1px;
+    background-position-x: -3px;
+    position: relative;
+    top: -40px;
+    left: 24px;
+    border: none;
+}
+.container .child input[type = "reset"]{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(images/masbaha1.jpg);
+    background-size: cover;
+    background-position-y: -0.5px;
+    position: relative;
+    top: -66px;
+    left: 12px;
+    border: none;
+}
