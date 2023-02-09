@@ -1,46 +1,79 @@
-.container{
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+}
+.d2, .d3{
+    display: none;
+}
+.container-0{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 180px;
-    margin: 100px auto;
-    padding: 20px;
-    border-radius: 30px;
-    position: relative;
-    background-image: url(images/masbaha.jpg);
-    background-size: cover;
-    background-position-x: -172px;
+    background-color: #cecece;
+    height: 248px;
+    justify-content: space-evenly;
+    width: 160px;
+    border-radius: 25px;
 }
-.container input[type = "text"]{
+.container-0 .i1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-0 .i1 .btn1{
+    width: 140px;
+    padding: 10px;
+}
+.container-0 .i1 .txt{
+    width: 135px;
+    text-align: center;
+    background: #efefef;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-0 .btn2{
+    width: 135px;
+    padding: 10px;
+}
+.container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cecece;
+    width: 160px;
+    height: 248px;
+    border-radius: 25px;
+}
+.container-1 input[type = "text"]{
     display: block;
     border: none;
     text-align: center;
     font-weight: bold;
     position: relative;
-    top: 29px;
+    top: 0;
     left: 3px;
-    width: 130px;
+    width: 135px;
     padding: 10px;
-    border-radius: 20px;
+    background-color: transparent;
 }
-.container span{
-    margin: 50px auto;
-    padding: 5px;
-    font-size: 15px;
-    background-color: white;
+.container-1 span{
+    margin: 40px auto;
+    font-size: 20px;
     position: relative;
-    top: -32px;
+    top: -10px;
     left: 2px;
     width: 145px;
-    border-radius: 20px;
     text-align: center;
 }
-.container .child{
+.container-1 .child{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.container .child input[type = "submit"]{
+.container-1 .child input[type = "button"]{
     width: 80px;
     height: 80px;
     display: block;
@@ -50,14 +83,10 @@
     margin-right: 10px;
     background-image: url(images/masbaha.jfif);
     background-size: cover;
-    background-position-y: 1px;
-    background-position-x: -3px;
     position: relative;
-    top: -40px;
-    left: 24px;
     border: none;
 }
-.container .child input[type = "reset"]{
+.container-1 .child input[type = "reset"]{
     margin-left: 10px;
     width: 30px;
     height: 30px;
@@ -65,26 +94,96 @@
     cursor: pointer;
     background-image: url(images/masbaha1.jpg);
     background-size: cover;
-    background-position-y: -0.5px;
     position: relative;
-    top: -66px;
-    left: 12px;
+    top: -30px;
     border: none;
 }
-@media (max-width: 600px) {
-    .container{
+/* @media (max-width: 600px) {
+    .container-1{
         width: 200px;
         background-position-x: -180px;
         padding: 30px;
     }
-    .container input[type = "text"]{
+    .container-1 input[type = "text"]{
         top: 23px;
         padding-top: 5px;
     }
-    .container span{
+    .container-1 span{
         top: -40px;
     }
-    .container .child input[type = "submit"] {
+    .container-1 .child input[type = "button"] {
         left: 22px;
     }
+} */
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cecece;
+    width: 160px;
+    height: 248px;
+    border-radius: 25px;
+}
+.container-2 .counter-2{
+    display: block;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    left: 3px;
+    width: 135px;
+    padding: 10px;
+    background-color: transparent;
+}
+.container-2 span{
+    margin: 30px auto;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    left: 2px;
+    width: 145px;
+    text-align: center;
+}
+.container-2 .txt{
+    display: block;
+    position: relative;
+    top: -20px;
+    width: 135px;
+    padding: 13.5px;
+    border: none;
+    background: transparent;
+}
+.container-2 .child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 45px;
+}
+.container-2 .child input[type = "button"]{
+    width: 80px;
+    height: 80px;
+    display: block;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+    background-image: url(images/masbaha.jfif);
+    background-size: cover;
+    position: relative;
+    border: none;
+}
+.container-2 .child input[type = "reset"]{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(images/masbaha1.jpg);
+    background-size: cover;
+    position: relative;
+    top: -30px;
+    border: none;
 }
